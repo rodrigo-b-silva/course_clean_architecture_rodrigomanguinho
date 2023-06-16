@@ -7,8 +7,8 @@
     "allowJs": true
   },
   "include": [
-    "src",
-    "test"
+    "./src",
+    "./test"
   ],
   "exclude": [
     "node_modules"
