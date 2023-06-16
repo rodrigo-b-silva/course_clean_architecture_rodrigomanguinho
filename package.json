@@ -1,0 +1,20 @@
+{
+  "name": "course_clean_architecture_rodrigomanguinho",
+  "version": "1.0.0",
+  "description": "Repositório alvo dos conhecimentos adquiridos no curto de Clean Architecture, DDD, Design Patterns e SOLID ministrado pelo instrutor Rodrigo Manguinho",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rodrigo-b-silva/course_clean_architecture_rodrigomanguinho.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/rodrigo-b-silva/course_clean_architecture_rodrigomanguinho/issues"
+  },
+  "homepage": "https://github.com/rodrigo-b-silva/course_clean_architecture_rodrigomanguinho#readme"
+}
