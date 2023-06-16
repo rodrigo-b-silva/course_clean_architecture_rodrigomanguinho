@@ -16,5 +16,8 @@
   "bugs": {
     "url": "https://github.com/rodrigo-b-silva/course_clean_architecture_rodrigomanguinho/issues"
   },
-  "homepage": "https://github.com/rodrigo-b-silva/course_clean_architecture_rodrigomanguinho#readme"
+  "homepage": "https://github.com/rodrigo-b-silva/course_clean_architecture_rodrigomanguinho#readme",
+  "devDependencies": {
+    "git-commit-msg-linter": "^5.0.4"
+  }
 }
