@@ -1,5 +1,5 @@
 TN:
-SF:src\pretest.ts
+SF:src\teste.ts
 FN:1,(empty-report)
 FNF:1
 FNH:0
@@ -8,7 +8,12 @@ DA:1,0
 DA:2,0
 DA:3,0
 DA:4,0
-LF:4
+DA:5,0
+DA:6,0
+DA:7,0
+DA:8,0
+DA:9,0
+LF:9
 LH:0
 BRDA:1,0,0,0
 BRF:1
