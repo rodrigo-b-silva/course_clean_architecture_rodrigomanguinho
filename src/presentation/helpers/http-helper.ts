@@ -1,14 +1,14 @@
 import { ServerError } from '../errors'
 import { type HttpResponse } from '../protocols'
 
-export const successRequest = (body: any): HttpResponse => ({
+export const successRequest = (data: any): HttpResponse => ({
   statusCode: 200,
-  body
+  body: data
 })
 
-export const createRequest = (body: any): HttpResponse => ({
+export const createRequest = (data: any): HttpResponse => ({
   statusCode: 201,
-  body
+  body: data
 })
 
 export const badRequest = (error: Error): HttpResponse => ({
@@ -16,8 +16,13 @@ export const badRequest = (error: Error): HttpResponse => ({
   body: error
 })
 
-export const notFound = (error: Error): HttpResponse => ({
-  statusCode: 404,
+export const unauthorized = (error: Error): HttpResponse => ({
+  statusCode: 401,
+  body: error
+})
+
+export const forbidden = (error: Error): HttpResponse => ({
+  statusCode: 403,
   body: error
 })
 
